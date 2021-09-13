@@ -1,0 +1,1085 @@
+
+/*INFO BOXES */
+
+.info-box  {
+    display: block;	
+    position: relative;
+    width: 100%;  
+    padding: 25px;
+    margin-bottom:25px;
+    color: inherit;
+}
+
+.info-box p{
+     margin-bottom: 1rem;
+}
+
+
+.info-box a:visited {
+    color: #ebebeb;
+}
+/*INFO BOXES less padding */
+
+.info-box-n  {
+    display: block;	
+    position: relative;
+    color:#ffffff;
+    width: 100%;  
+    padding: 11px;
+    margin-bottom:7px;
+}
+
+.info-box-n a:link {
+    color: inherit;
+}
+
+.info-box-n a:visited {
+    color: #ebebeb;
+}
+
+.info-box-n h2 {font: normal 550 2.44140625rem/1.0;
+    margin: 0 0 .6em 0;}
+
+/* Info Box Half Size */
+
+.half  {
+    display: block;
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    min-height: 125px;
+    max-height: 165px;
+    padding: 11px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.half h4 {font: normal 550 1.8rem/1.3;
+    margin:0 0 0.3rem 0;}
+
+.half p {
+    margin: 0 0 0.2rem 0;
+    line-height: 1.3;
+}
+/* Info Box smaller Half Size */
+
+half-n {
+    display: block;
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    height: 130px;
+    padding: 11px 11px 11px 11px;
+    margin-bottom: 2px;
+    margin-top: 2px;}
+.half-n h4 {
+    font: normal 650 1.5rem/1.3;
+    margin: 0;}
+
+.half-n p {
+    margin: 0 0 0.1rem 0;
+    line-height: 1.3;
+}
+
+                                        
+/* INFO BOX RECTANGLE PICTURE */
+
+.rect-pic{
+   min-width: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.button-rich + .rect-pic { 
+    margin: 20px 0 0 0; 
+    }
+
+.rect-pic + h2, .rect-pic + h4{
+    margin: 0.6em 0 .6em 0;
+}
+
+
+
+/* INFO BOX RECTANGLE PICTURE TO EDGE OF BOX*/
+
+.to-edge{
+   min-width: calc(100% + 50px);
+height: auto;
+margin: -25px;
+overflow: hidden;
+
+}
+.to-edge:last-child { 
+    min-width: calc(100% + 50px); 
+    height: auto; 
+    margin: 20px -25px -29px -25px; 
+    }
+
+
+.to-edge + h2{
+    margin: 1em 0 .6em 0;
+}
+
+.to-edge + h4{
+    margin: 1.5em 0 .6em 0;
+}
+
+                                          
+/* INFO BOX ROUND PICTURE */
+                                        
+
+.round-pic{
+    position: relative;
+    display: block;
+    border-radius: 50% !important;
+margin: 0 auto;
+}
+.button-rich + .round-pic { 
+  margin: 20px auto 0;
+    }
+.round-pic + h2, .round-pic + h4{
+    margin: 0.6em 0 .6em 0;
+}
+
+
+
+
+
+/* BORDER-RADIUS */
+
+.radius-20 {
+    border-radius: 20px;
+}
+.radius-20 img:first-child{
+    border-radius: 20px 20px 0 0;
+}
+.radius-20 img:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.radius-100 {
+    border-radius: 100px;
+}
+.radius-100 img{
+    border-radius: 100px 100px 0 0;
+}
+
+                                     
+
+/* CORNER MODIFICATIONS WITH SHADOW */
+
+.rcorner1 {
+border-radius: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.rcorner2 {
+border-radius: 15px 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+/* RICH BUTTON MODIFICATIONS AND STYLES */
+
+.button-rich {
+    padding: 1rem;
+    border: solid 1px #ffffff;
+    color: #fff;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+a.button-rich{
+    color: #fff;
+}
+
+a.button-rich:hover {
+    border: solid 1px #adadad52;
+    background: #fff;
+    color: #000;
+    transition: all .2s ease;
+}
+
+
+a.button-rich:visted {
+    border: solid 1px #ebebeb;
+}
+
+.button-rich-black {
+    padding: 1rem;
+    border: solid 1px #000;
+    background: #000;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+
+.button-rich-outline-black {
+    padding: 1rem;
+    border: solid 1px #000000;
+    background: transparent;
+    color: #000000 !important;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+
+
+.button-rich-white {
+    padding: 1rem;
+    border: solid 1px #000;
+    background: #fff;
+    color: #2d2926;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+
+.button-rich-lightblue {
+    padding: 1rem;
+    border: solid 1px #ffffff;
+    background: #27A9E1;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+.button-rich-green {
+    padding: 1rem;
+    border: solid 1px #2AB573;
+    background: #2AB573;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+a.button-rich-green:hover {
+    border: solid 1px #2AB573;
+    background: #ffffff;
+    color: #2AB573 !important;
+    transition: all .2s ease;
+}
+
+
+a.button-rich-lightblue:hover {
+    border: solid 1px #27A9E1;
+    background: #ffffff;
+    color: #27A9E1 !important;
+    transition: all .2s ease;
+}
+
+a.button-rich-black:hover {
+    border: solid 1px #000;
+    background:#fff;
+    color: #000 !important;
+    transition: all .2s ease;
+}
+
+
+a.button-rich-outline-black:hover {
+    border: solid 1px #000;
+    background:#000000;
+    color: #ffffff !important;
+    transition: all .2s ease;
+}
+
+
+a.button-rich-white:hover {
+    border: solid 1px #fff;
+    background:transparent;
+    color: #fff !important;
+    transition: all .2s ease;
+}
+
+
+.button-skinny {
+    padding: 0.3rem;
+    border: solid 1px #fff;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: left;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+.button-skinny-black {
+    padding: 0.3rem;
+    border: solid 1px #000;
+    color: #fff;
+     background: #000;
+    text-decoration: none;
+    margin: 1rem auto 0 auto;
+    display: block;
+    width: 100%;
+    text-align: left;
+    transition: all .2s ease;
+    font-weight: 500;
+}
+
+.small {
+    padding: 0.3rem 0;
+    margin: 0rem 0.3rem 0.5rem 0rem;
+}
+
+.skinny {
+    padding: 0.3rem;
+    text-align: left;
+}
+
+.large {
+    margin: 1.5rem auto 0 auto;
+    padding: 0 1.2rem;
+}
+
+.skinny a{
+    padding: 0.3rem;
+}
+
+
+.large a{
+cursor: pointer;
+width: 100%;
+text-align: center; 
+font-size: 1.5em;
+font-weight: 550;
+margin: 0 auto;
+z-index: 3;
+}
+
+
+a.button-skinny:hover {
+    border: solid 1px #fff;
+    background: #fff;
+    color: #000;
+    transition: all .2s ease;
+}
+
+
+a.button-skinny-black:hover {
+    border: solid 1px #000;
+    background: #fff;
+    color: #000;
+    transition: all .2s ease;
+}
+
+.fit {
+    display: block;
+    width: auto;
+}
+
+
+.fit a{
+    width: 100%;
+}
+
+.disabled a, a.disabled {
+    border: solid 1px #6d6d6d;
+    color: #6d6d6d;
+    text-decoration: none;
+    cursor: default;
+}
+
+.disabled a:link { 
+    color: #6d6d6d;
+   cursor: default;
+   }
+
+a.disabled:visited, .disabled a:visited{
+    border: solid 1px #6d6d6d;
+    color: #6d6d6d;
+   cursor: default;
+}
+
+a.disabled:hover, disabled:hover {
+    border: solid 1px #6d6d6d;
+    background: transparent;
+    color: #6d6d6d;
+    cursor: default;
+}
+
+
+/* SPECIAL BUTTONS */
+
+                                      
+/* Round Button Styles With FontAwesome Icons */
+
+.round-button { width:60%; margin: 1rem auto;} 
+.round-button-circle { width: 100%; height:0; padding-bottom: 100%; border-radius: 50%; overflow:hidden; box-shadow: 0 0 3px gray; } 
+.round-button-circle:hover {filter: brightness(90%);} 
+.round-button i{ font-size:6em;}
+.round-button a{ display:block; width:100%; padding-top:25%; padding-bottom:50%; line-height:2em; margin-top:-0.5em; text-align:center; color:#ffffff; font-size:1.2em; font-weight:bold; text-decoration:none; }
+.round-button a:visited{ color:#ffffff; }
+.round-button a:hover{ filter: brightness(100%); color:#ffffff; }
+
+/* large buttons*/
+
+/* add text colour to parent element */
+.button-lg {
+    position: relative;
+    margin: 1.5rem auto 0 auto;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+.button-sm {
+    margin: 0 0 0.3rem auto !important;
+    padding: 0.3rem;
+    width: 100%;
+    transition: all .2s ease;
+ 
+
+}
+
+.button-sm p{
+    margin: 0 !important;
+    padding: 0;
+    font-weight: 600;
+
+}
+
+
+/* add padding after parent to maintain responsive ratio */
+.button-lg:after {
+content: "";
+  display: block;
+  padding-bottom: 25%;
+}
+
+                                      
+/* square buttons */
+
+/* add text colour to parent element */
+.button-sqr {
+    position: relative;
+    margin: 1.5rem auto 0 auto;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+/* add padding after parent to maintain responsive ratio */
+.button-sqr:after {
+content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.button-sqr i, .button-lg i {font-size:6em;}
+
+.button-sqr:hover, .button-lg:hover {
+    transition: all .2s ease-in-out;  
+}
+
+/* add class to the a href to stretch the link area over the parent */
+a.link-sqr{
+position: absolute;
+width: 100%;
+height: 100%; 
+text-decoration: none;
+color: transparent;
+z-index: 4;
+}
+
+/* add text as seperate element */
+.button-sqr p, .button-lg p{
+cursor: pointer;
+position: absolute;
+width: 100%;
+top: 50%;
+transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+text-align: center; 
+font-size: 1.5em;
+font-weight: 550;
+padding: 0 1rem;
+margin: 0 auto;
+z-index: 3;
+}
+
+
+/* DEFINITION CLASSES ADD TO PARENT */
+
+.darkblutxt {background-color: #ffffff; color: #1c335a; font-weight: 600; border: 1px solid #1c335a;}
+.darkblutxt:hover {background-color:#1c335a; color: #ffffff; border: 1px solid #1c335a;}
+a.darkblutxt {color: #1c335a;}
+.darkblutxt a:visited {color: #1c335a;}
+a.darkblutxt:hover {color: #ffffff; background-color:#1c335a;}
+
+/*text*/
+.whitetxt {color: #ffffff;}
+.blktxt {color: #000000;}
+.blugrntxt {color: #2C7082;}
+.redtxt {color: #c7323e;}
+.grntxt {color: #199c6c;}
+.blutxt {color: #1b75bc;}
+.orgtxt {color: #f57918;}
+
+/*outlines*/
+.blkline {border: 1px solid #000000;}
+
+/*round corners*/
+.radius-20 {border-radius: 20px;}
+.radius-100 {border-radius: 100px;}
+
+/*background image*/
+.image1 {background: url(https://az184419.vo.msecnd.net/emsb/emsb-website/common/img/page-images/bicycle-international-landing.jpg);
+ background-size: cover;
+    background-repeat: no-repeat;}
+
+
+
+/*backgrounds*/
+.blugrnbkd {background-color: #2C7082; border: 1px solid transparent;}
+.whitebkd {background-color: #ffffff; border: 1px solid transparent;}
+.redbkd {background-color: #c7323e; border: 1px solid transparent;}
+.darkredbkd {background-color: #8c0718; color: #ffffff; border: 1px solid transparent;}
+.darkblubkd {background-color: #1c335a; border: 1px solid transparent;}
+.blubkd {background-color: #1b75bc; border: 1px solid transparent;}
+.grnbkd {background-color: #199c6c; border: 1px solid transparent;}
+.orgbkd {background-color: #f57918; border: 1px solid transparent;}
+
+
+
+/*text hovers*/
+.whitetxthov:hover {color: #ffffff;}
+.blugrntxthov:hover {color: #2C7082;}
+.redtxthov:hover {color: #c7323e;}
+.darkblutxthov:hover {color: #1c335a;}
+.grntxthov:hover {color: #199c6c;}
+.blutxthov:hover {color: #1b75bc;}
+.orgtxthov:hover {color: #f57918;}
+
+/*outline hovers*/
+.redlinehov:hover {border: 1px solid #c7323e;}
+.blugrnlinehov:hover {border: 1px solid #2C7082;}
+.darkblulinehov:hover {border: 1px solid #1c335a;}
+.grnlinehov:hover {border: 1px solid #199c6c;} 
+.blulinehov:hover {border: 1px solid #1b75bc;}
+.orglinehov:hover {border: 1px solid #f57918;}
+
+/*background hovers*/
+.blugrnbkdhov:hover {background-color:#2C7082;}
+.redbkdhov:hover {background-color: #c7323e;}
+.whitebkdhov:hover {background-color: #ffffff;}
+
+/*animated hovers*/
+.grow {transition: all .2s ease-in-out;}
+.grow:hover {transform: scale(1.1);}
+ 
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  border: none;
+}
+
+.button-sqr:hover .overlay {
+    bottom: 0;
+  height: 100%;
+}
+
+
+/*MINI ARTICLE LISTING MODIFICATIONS*/
+
+.article-listing__container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+.article-listing__header-text {
+    padding-bottom: .8rem;
+}
+
+.article-listing__header {
+      border-bottom: solid 1px #aaa;
+}
+
+.article-listing__header-left {
+    align-items: left;
+    display: block;
+    padding-bottom: .5rem;
+}
+
+/*ACCORDION MODIFICATIONS*/
+
+.accordion-module {
+    margin: 2rem 0 4rem 0;
+}
+
+.accordion-module__top-header-text {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.accordion__title {
+font-weight: 400;
+font-size: 1.1rem;
+background: #efefef;
+padding: 0 .5em;
+text-decoration: none;
+border-bottom: 1px solid #ffffff;
+}
+
+.accordion__title-text {
+    padding: 1rem 1rem 1rem 0rem;
+    display: block;
+}
+
+
+.accordion__title-text:hover {
+    color:#c7323e;
+}
+
+.accordion-module__bottom-container {
+width: 100%;
+max-width: 72.5rem;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+}
+
+.accordion-module__bottom {
+background: #ffffff;
+padding-top: 1px;
+padding-bottom: 1px;
+}
+
+.accordion-module__bottom-item {
+background: #ffffff;
+margin-bottom: 0px;
+}
+
+.accordion__content--open{
+   max-height: 100000px;
+     overflow-y: hidden;
+}
+
+
+
+/*BANNER MODIFICATIONS FOR MOBILE*/
+
+@media only screen and (max-width: 500px) {
+.banner-slider__container {
+    height: 150px;
+}
+
+.banner-slider__slide {
+    height: 150px;
+    background: #c7333e;
+    background-image: none !important;
+}
+
+
+.banner-slider__slide-content {
+    max-width: 100%;
+}
+
+}
+
+/*FEATURED ARTICLE MODIFICATIONS*/
+
+ .featured-article__container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+@media only screen and (min-width: 1160px) {
+
+.featured-article__container {
+    max-width: 74.5rem;  
+}
+
+.featured-article__media-image{
+    min-height: auto;
+    max-height: 350px;
+    object-fit: cover;
+}
+}
+
+.article-meta__author {
+    font-size: .85rem;
+}
+
+.article-meta__deparment {
+    font-size: 0.7em;
+    margin: 0.4em 0 1em;
+}
+
+.featured-article__content-read-more {
+  display: inline-block;
+  background: #c7323e;
+  padding: 1em 1.5em;
+  min-width: 100px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.25s ease-in, background-color 0.25s ease-in, border-color 0.25s ease-in;
+  position: relative;
+  text-align: center;
+  background: transparent;
+  border: solid 1px #c7323e;
+  color: #c7323e;
+  font-weight: 600;
+} 
+
+.featured-article__content-read-more a:hover,
+.featured-article__content-read-more:hover {
+   color: #fff;
+   background: #c7323e;
+}
+.featured-article__content-read-more a:active,
+.featured-article__content-read-more:active,
+.featured-article__content-read-more a:focus,
+.featured-article__content-read-more:focus {
+  color: #fff;
+  background: #c7323e;
+}
+
+
+
+/*HEADER AND FOOTER MODIFICATIONS*/
+
+
+.cta-nav {
+    color: #000000;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    margin-bottom: .5rem !important;
+    line-height: 1.2 !important;
+}
+
+.social-nav {
+    padding: 0 0 0.2rem 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #c7333e !important;
+}
+
+
+.social-nav:hover{
+   color: #000000 !important;
+}
+
+
+.header__nav-dropdown-section:last-child {
+    width: auto; 
+    height: auto;
+	background-attachment: scroll;
+	background-image: url(https://az184419.vo.msecnd.net/emsb/common/img/header-footer/drop-bkd.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;    
+}
+
+.ftr-lnk a:link {
+    color: #c7323e;
+}
+
+.ftr-lnk a:visited {
+    color: #c7323e;
+}
+
+/*BANNER SLIDER MODIFICATIONS*/
+
+.banner-slider__slide-content-text-title {
+    font-size: 1.8rem;
+}
+
+
+/* CODE FOR CHAIRMAN'S BOX AT BOTTOM */ 
+
+
+/* Box Container */
+.chair-box {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin-bottom:10px;
+}
+
+.chair-box img {max-width:80px;}
+
+
+.chair-box h2:first-child, .chair-box h2 {
+    font: normal 550 2.44140625rem/1.0;
+    margin: 0 0 .2em 0 !important;
+ color: #ffffff;
+}
+
+.chair-box p {color: #ffffff;}
+
+
+.chair-box a:visited {
+    color: #ebebeb;
+}
+.chair-box a:link {
+    color: #ffffff;
+}
+
+/* Circled Image */
+.img-rnd{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+.chair-box {
+padding-right: 2em;
+}
+.chair-box p {
+    padding-top: 2em;
+}
+
+}
+
+/* SCHOOL SEARCH MODIFICATIONS */
+.school-search__results-item {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: dotted 1px #6d6d6d;
+}
+
+.school-search__results-item-crest-img {
+    max-width: 150px;
+}
+
+/* MISC */
+.clear {clear: both; height: 1px;}
+hr {border-top: solid 1px #aaa;
+border-bottom: none;}
+
+/*background colours*/
+
+.transparent {
+    color:#6d6d6d;
+    padding: 0 0 0 0;
+}
+
+
+.white  {
+    color:#fff;
+}
+
+
+.outline-black{
+    border: #000000 1px solid;
+    color: #000;
+}
+.outline-black a:visited {
+    color: #555;
+}
+
+.outline-black p, .outline-black h2, .outline-black h4 { color:#000000;}
+
+
+
+.outline-red{
+    border: #c7323e 1px solid;
+    color: #000;
+}
+
+
+.dkblbkd {
+    background: #003851;
+      color:#fff;
+}
+
+.mdblbkd {
+    background: #006896;
+      color:#fff;
+}
+
+.darkblue  {
+    background: #023A4E;
+      color:#fff;
+}
+
+.darkblue p, .darkblue h2, .darkblue h4 { color:#ffffff;}
+
+.bluegrey {
+    background: #2C7082;
+      color:#fff;
+}
+
+.lightblue {
+    background: #27A9E1;
+    color:#fff;
+}
+.lightblue a {
+    color:#292a2c;
+}
+
+.darkgreen {
+    background: #07562C;
+      color:#fff;
+}
+
+.darkgreen p, .darkgreen h2, .darkgreen h4 { color:#ffffff;}
+
+.lightgreen {
+    background: #2AB573;
+      color:#fff;
+}
+
+.lightgreen p, .lightgreen h2, .lightgreen h4 { color:#ffffff;}
+
+.purple {
+    background: #7C172D;
+      color:#fff;
+}
+
+.purple p, .purple h2, .purple h4 { color:#ffffff;}
+
+.lightorange {
+    background: #f7952b;
+      color:#000000;
+}
+
+.burntorange {
+    background: #BA3826;
+      color:#fff;
+}
+
+.orange {
+    background: #F05A28;
+      color:#fff;
+}
+
+.yellow {
+    background: #FBAF3F;
+     color:#292a2c;
+}
+.grybkd {
+    background: #5555c7;
+    color:#fff;
+}
+.dgrybkd {
+    background: #555555;
+      color:#fff;
+}
+.black {
+    background: #2d2926;
+      color:#ffffff;
+}
+
+.black a:link {
+    color: #ffffff;
+}
+
+.black a:visited {
+    color: #ffffff;
+}
+
+.black a:hover {
+    color: #2d2926;
+}
+
+.red{
+    background: #c7323e;
+    color:#fff;
+}
+.pink {
+    background: #e7aaae;
+}
+.drkpink {
+    background: #ca8287;
+    color:#fff;
+}
+.gray {
+    background: #6d6d6d;
+
+}
+.lightgray {
+  border: #0000003b 1px solid;
+  background-color: #80808014;
+  color: #6d6d6d;
+}
+
+
+.lightgray h4{
+  color: #000000;
+}
+
+.lightorange .button-rich { border: 1px #000000 solid; color: #000000 !important;}
+.lightorange .button-rich:hover { border: 1px #000000 solid; color: #000000; background: #ffffff;}
+
+
+.yellow .button-rich { border: 1px #292a2c solid; color: #292a2c !important;}
+.yellow .button-rich:hover { border: 1px #292a2c solid; color: #292a2c; background: #ffffff;}
+
+.lightgray .button-rich { border: 1px #000000 solid; color: #000000; background: #ffffff;}
+.lightgray .button-rich:hover { border: 1px #c7323e solid; color: #c7323e; background: #ffffff;}
+
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+.mobile-menu__list .mobile-menu__list--open {
+    max-height: none;
+    overflow-y: none;
+}
+.news-details__media-image {
+    width: 100% !important;
+    height: auto;
+}
